@@ -1,0 +1,18 @@
+public class MainFarm {
+
+	@SuppressWarnings("deprecation")
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FarmAnimal f = new FarmAnimal();
+		f.setId(7);
+		f.setBornOn(new Date(70,1,1));
+		System.out.println(f.getId() + " was born in " + f.getBornOn());
+		System.out.println(f.getId() + " is " + f.getAgeInMonths() + " months old");
+		
+		FarmAnimal f2 = new FarmAnimal();
+		f2.setId(5);
+		System.out.println(f2.getId() + " was born in " + f2.getBornOn());
+		System.out.println(f2.getId() + " is " + f2.getAgeInMonths() + " months old");
+
+	}
+}
