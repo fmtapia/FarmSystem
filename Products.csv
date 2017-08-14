@@ -1,0 +1,11 @@
+Code,name,price,quantity,ProviderCode
+1,bricks,1,10,1
+2,roman brick,2,20,1
+3,artificial stone,5,30,3
+4,belgian marble,5.5,40,3
+5,limestone,6,50,3
+6,decorative stones,6.5,10,3
+7,banbury lock,7,20,2
+8,bicycle lock,7.5,30,2
+9,computer lock,8,40,2
+10,door chain,8.5,50,2
